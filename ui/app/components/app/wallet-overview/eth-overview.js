@@ -136,10 +136,10 @@ const EthOverview = ({ className }) => {
           {swapsEnabled ? (
             <IconButton
               className="eth-overview__button"
-              disabled={!isMainnetChain}
+              disabled={false}
               Icon={SwapIcon}
               onClick={() => {
-                if (isMainnetChain) {
+                if (true) {
                   enteredSwapsEvent();
                   dispatch(setSwapsFromToken(swapsEthToken));
                   if (usingHardwareWallet) {

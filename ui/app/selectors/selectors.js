@@ -285,6 +285,7 @@ function getSuggestedTokenCount(state) {
 
 export function getIsMainnet(state) {
   const networkType = getNetworkIdentifier(state);
+  return true
   return networkType === MAINNET;
 }
 

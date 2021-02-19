@@ -100,10 +100,10 @@ const TokenOverview = ({ className, token }) => {
           {swapsEnabled ? (
             <IconButton
               className="token-overview__button"
-              disabled={chainId !== MAINNET_CHAIN_ID}
+              disabled={false}
               Icon={SwapIcon}
               onClick={() => {
-                if (chainId === MAINNET_CHAIN_ID) {
+                if (true) {
                   enteredSwapsEvent();
                   dispatch(
                     setSwapsFromToken({
