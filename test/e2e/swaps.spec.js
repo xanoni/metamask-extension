@@ -21,7 +21,7 @@ describe('MetaMask', function () {
     await ganacheServer.start();
     await fixtureServer.start();
     await fixtureServer.loadState(
-      path.join(__dirname, 'fixtures', 'imported-account'),
+      path.join(__dirname, 'fixtures', 'swaps'),
     );
     const result = await buildWebDriver();
     driver = result.driver;
@@ -60,6 +60,13 @@ describe('MetaMask', function () {
 
   describe('Swaps Feature', function () {
     it('', async function () {
+      await driver.delay(largeDelayMs);
+      await driver.clickElement(
+        By.css(
+          `[data-testid="eth-overview-swap"]`,
+        ),
+      );
+      await driver.delay(largeDelayMs * 4);
       assert(true);
     });
   });
