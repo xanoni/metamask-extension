@@ -1634,7 +1634,8 @@
     "message": "Ito ay pagtatantya ng bayarin sa network na gagamitin para kumpletuhin ang iyong pag-swap. Maaaring magbago ang aktuwal na halaga ayon sa mga kundisyon ng network."
   },
   "swapFailedErrorDescription": {
-    "message": "Ang iyong pondo ay ligtas at available pa rin sa iyong wallet."
+    "message": "Ang iyong pondo ay ligtas at available pa rin sa iyong wallet.",
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
   },
   "swapFailedErrorTitle": {
     "message": "Hindi matagumpay ang pag-swap"

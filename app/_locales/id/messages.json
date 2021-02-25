@@ -1634,7 +1634,8 @@
     "message": "Ini adalah perkiraan biaya jaringan yang akan digunakan untuk menyelesaikan penukaran Anda. Jumlah aktual dapat berubah sesuai dengan kondisi jaringan."
   },
   "swapFailedErrorDescription": {
-    "message": "Dana Anda aman dan masih tersedia di dompet Anda."
+    "message": "Dana Anda aman dan masih tersedia di dompet Anda.",
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
   },
   "swapFailedErrorTitle": {
     "message": "Penukaran gagal"

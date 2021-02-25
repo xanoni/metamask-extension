@@ -1646,7 +1646,8 @@
     "message": "Esta es una estimación de la tarifa de red que se utilizará para completar su intercambio. La cantidad real puede cambiar según las condiciones de la red."
   },
   "swapFailedErrorDescription": {
-    "message": "Sus fondos están seguros y todavía disponibles en su monedero."
+    "message": "Sus fondos están seguros y todavía disponibles en su monedero.",
+    "description": "This message is shown to a user if their swap fails. The $1 will be replaced by support.metamask.io"
   },
   "swapFailedErrorTitle": {
     "message": "Intercambio fallido"
